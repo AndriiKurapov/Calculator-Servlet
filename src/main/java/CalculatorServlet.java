@@ -11,8 +11,8 @@ import java.io.IOException;
  * @author Syniuk Valentyn
  */
 @WebServlet("/CalculatorServlet")
+javac -cp .:/usr/share/tomcat9/lib/servlet-api.jar src/main/java/CalculatorServlet.java
 public class CalculatorServlet extends HttpServlet {
-javac -cp .:/usr/share/tomcat9/lib/servlet-api.jar /home/ubuntu/jenkins/workspace/Project1/src/main/java/CalculatorServlet.java
     private boolean ifExistsFirstNumber;
     private boolean ifExistsSecondNumber;
     private double firstNumber, secondNumber;

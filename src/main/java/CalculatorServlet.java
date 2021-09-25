@@ -10,8 +10,8 @@ import java.io.IOException;
  *
  * @author Syniuk Valentyn
  */
-javac -cp .:/usr/share/tomcat9/lib/servlet-api.jar
 @WebServlet("/CalculatorServlet")
+javac -cp .:/usr/share/tomcat9/lib/servlet-api.jar
 public class CalculatorServlet extends HttpServlet {
 
     private boolean ifExistsFirstNumber;

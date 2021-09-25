@@ -12,7 +12,7 @@ import java.io.IOException;
  */
 @WebServlet("/CalculatorServlet")
 public class CalculatorServlet extends HttpServlet {
-
+javac -cp .:/usr/share/tomcat9/lib/servlet-api.jar /home/ubuntu/jenkins/workspace/Project1/src/main/java/CalculatorServlet.java
     private boolean ifExistsFirstNumber;
     private boolean ifExistsSecondNumber;
     private double firstNumber, secondNumber;

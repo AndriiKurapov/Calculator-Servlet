@@ -1,13 +1,16 @@
-import javax.servlet.*;
-import javax.servlet.http.*;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
 /**
  * The servlet is used to process user GET requests, that is, to handle interactions with the calculator.
  * There is no need for mapping in web.xml.
  *
  * @author Syniuk Valentyn
  */
+javac -cp .:/usr/share/tomcat9/lib/servlet-api.jar
 @WebServlet("/CalculatorServlet")
 public class CalculatorServlet extends HttpServlet {
 

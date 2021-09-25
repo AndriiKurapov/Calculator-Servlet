@@ -14,7 +14,7 @@ public class GETRequest {
 
     public static void main(String[] args) throws IOException {
         GETRequest request = new GETRequest();
-        String query = "http://localhost:8080/CalculatorServlet";
+        String query = "http://localhost:8090/CalculatorServlet";
         LOG.info(request.createGETRequest(query));
     }
 

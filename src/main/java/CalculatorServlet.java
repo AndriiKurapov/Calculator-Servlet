@@ -190,7 +190,6 @@ public class CalculatorServlet extends HttpServlet {
         builder = new StringBuilder();
         return String.valueOf(firstNumber);
     }
-javac -cp .:/usr/share/tomcat9/lib/servlet-api.jar
 }
 
 

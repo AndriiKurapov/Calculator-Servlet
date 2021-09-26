@@ -11,7 +11,7 @@ import java.io.IOException;
 public class GETRequestTest {
 
     private GETRequest request = new GETRequest();
-    private String query = "http://localhost:8080/CalculatorServlet";
+    private String query = "http://localhost:8090/CalculatorServlet";
 
     @Test
     public void testGETRequest() throws IOException {

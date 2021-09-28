@@ -74,7 +74,8 @@
                     <artifactId>maven-war-plugin</artifactId>
                     <configuration>
                        <webXml>src/main/resources/web.xml</webXml>
-                    </configuration>         
+                    </configuration>
+                </plugin>         
                 <plugin>
                     <artifactId>maven-deploy-plugin</artifactId>
                     <version>2.8.2</version>

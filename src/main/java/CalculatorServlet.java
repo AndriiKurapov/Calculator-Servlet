@@ -46,7 +46,7 @@ public class CalculatorServlet extends HttpServlet {
         else if (request.getParameter("C") != null) clear();
 
         request.setAttribute("result", result);
-        request.getRequestDispatcher("/html/index.jsp").forward(request, response);
+        request.getRequestDispatcher("index.jsp").forward(request, response);
     }
 
     @Override

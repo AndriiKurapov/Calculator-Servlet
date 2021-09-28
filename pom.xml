@@ -73,7 +73,7 @@
                 <plugin>     
                     <artifactId>maven-war-plugin</artifactId>
                     <configuration>
-                       <webXml>src/main/resources/web.xml</webXml>
+                       <webXml>src/resources/web.xml</webXml>
                     </configuration>
                 </plugin>         
                 <plugin>

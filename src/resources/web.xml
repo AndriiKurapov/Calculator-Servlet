@@ -6,6 +6,6 @@
 
 </web-app>
 <servlet>
-        <servlet-name>CalculatorServlet</servlet-name>
+        <servlet-name>Calc</servlet-name>
         <jsp-file>index.jsp</jsp-file>
 </servlet>
